@@ -6,7 +6,6 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * 基础对象，对象共有的一些属性
  * Created by yehao on 2016/10/13.
  */
 
