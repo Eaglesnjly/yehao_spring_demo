@@ -7,6 +7,14 @@ import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
 /**
+ * TODO next steps
+ * 1、第一步：最简单pojo  最小单元 属性 （最少干扰项）
+ * 2、第二步：bean依赖注入的实现
+ * 3、第三步：在之前的基础上货站分之，（不同的处理scope/ bean的生命周期（init，destroy等））
+ *
+ *  正确的方式，避免陷入循环：
+ *  重点概念：
+ *
  * <p></p>
  * Created by admin on 2017/9/19.
  */
