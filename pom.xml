@@ -198,6 +198,17 @@
             <version>1.16.8</version>
             <scope>provided</scope>
         </dependency>
+
+        <!--jetty-servlet 仅仅为了测试jetty servlet。方便产生jar包-->
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-servlets -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlet</artifactId>
+            <version>9.2.11.v20150529</version>
+            <scope>test</scope>
+        </dependency>
+
+
     </dependencies>
 
     <build>
